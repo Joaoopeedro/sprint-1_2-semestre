@@ -1,0 +1,23 @@
+USE PCLINCS_JOAO;
+GO
+
+INSERT INTO DONO (nomeDono)
+VALUES ('João'), ('Gustavo');
+GO
+SELECT * FROM DONO 
+
+INSERT INTO CLINICA (end_clinica)
+VALUES ('Rua'), ('Rua2');
+GO
+
+SELECT * FROM CLINICA
+
+INSERT INTO ESPECIE (nomeEsp)
+VALUES ('M'), ('T');
+GO
+SELECT * FROM ESPECIE
+
+INSERT INTO RACA (cod_esp, nomeRaca)
+VALUES (2,'A'), (1,'B'),(1,'C');
+GO
+SELECT * FROM RACA
