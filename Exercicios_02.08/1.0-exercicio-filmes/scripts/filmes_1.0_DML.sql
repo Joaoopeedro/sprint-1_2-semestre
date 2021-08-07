@@ -5,19 +5,21 @@ USE CATALOGO_JOAO;
 GO
 
 INSERT INTO GENERO(nomeGenero)
-VALUES ('AÇÃO'), ('ROMANCE')
+VALUES ('AÇÃO'), ('ROMANCE'),('AVENTURA'), ('TERROR')
 GO
 
 
 
 DELETE FROM GENERO 
-WHERE idGenero = 2
+WHERE idGenero > 4
 
 
 INSERT INTO FILME (tituloFilme, idgenero)
-VALUES ('Rambo', 1), ('Vingadores' ,1), ('GHOST', 2),('DIARIO DE UMA PAIXAO', 2);
+VALUES ('Rambo', 1), ('Vingadores' ,1), ('Ghost', 2),('Diario de uma paixao', 2),
+('HER',NULL),('Homem-aranha', NULL);
 GO
 
+DELETE FROM FILME
 
 
 --update FILME set tituloFilme = 'RAMBO 2'
