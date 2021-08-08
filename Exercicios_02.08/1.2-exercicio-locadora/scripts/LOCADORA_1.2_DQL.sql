@@ -13,7 +13,7 @@ SELECT * FROM ALUGUEL
 --o nome do cliente que alugou e nome do modelo do carro
 
 SELECT  cod_aluguel,dataRetirada,dataDev,nomeCliente,nomemod FROM ALUGUEL
-FULL OUTER JOIN CLIENTE
+INNER JOIN CLIENTE
 ON CLIENTE.cod_cliente = ALUGUEL.cod_cliente
 INNER JOIN MODELO
 ON MODELO.cod_mod = ALUGUEL.cod_veic;
@@ -22,7 +22,7 @@ ON MODELO.cod_mod = ALUGUEL.cod_veic;
 -- as datas de início e fim e o nome do modelo do carro
 
 SELECT  cod_aluguel,nomeCliente,dataRetirada,dataDev,nomemod FROM ALUGUEL
-FULL OUTER JOIN CLIENTE
+INNER JOIN CLIENTE
 ON CLIENTE.cod_cliente = ALUGUEL.cod_cliente
 INNER JOIN MODELO
 ON MODELO.cod_mod = ALUGUEL.cod_veic

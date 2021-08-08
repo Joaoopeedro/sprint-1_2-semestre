@@ -5,6 +5,9 @@ INSERT INTO USUARIO (nomeUsu,emailUsu,senha)
 VALUES ('João','joao@gmail.com', '123'), ('Pedro', 'pedro@hotmail.com', '1234');
 GO
 
+UPDATE USUARIO SET Permissao = 'Comum'
+WHERE idUsuario = 6
+
 
 
 INSERT INTO ARTISTA(nomeArt)
@@ -17,8 +20,8 @@ INSERT INTO ALBUM (idArtista,nomeAlb,dataLancamento)
 VALUES (2,'AMENDOIM', '03-04-2021 10:30'), (1,'BANANA','04-04-2021 12:30'),(1,'PERA','05-04-2021');
 GO
 
-UPDATE ALBUM SET idArtista = 1
-WHERE idAlbum = 4
+UPDATE ALBUM SET ATIVO = 'Não'
+WHERE idAlbum = 3
 
 
 
