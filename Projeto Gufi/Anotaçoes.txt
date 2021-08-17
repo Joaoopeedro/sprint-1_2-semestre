@@ -1,0 +1,39 @@
+tipoUsuario
+idTipoUsuario(PK)
+nomeTipoUsuario
+
+usuario
+idUsuario(PK)
+idTipoUsuario(FK)
+nomeUsuario
+Email
+Senha
+
+tipoEvento (categoria)
+idTipoEvento(PK)
+tituloTipoEvento
+
+evento
+idEvento(PK)
+idTipoEvento(FK)
+nomeEvento
+Descricao
+dataEvento (D/h)
+acessoLivre 
+
+
+intituicao
+idInstitucao(PK)
+cnpj
+nomeFantasia
+endereco
+
+presencao (Convite/ingresso)
+idPresenca(PK)
+idUsuario(FK)
+idEveneto(FK)
+idSituacao(FK)
+
+situacao
+idSituacao(PK)
+descricao
