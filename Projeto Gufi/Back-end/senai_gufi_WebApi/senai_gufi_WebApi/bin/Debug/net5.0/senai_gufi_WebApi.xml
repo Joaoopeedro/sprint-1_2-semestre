@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai_gufi_WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:senai_gufi_WebApi.Controllers.LoginController.Login(senai_gufi_WebApi.ViewModels.LoginViewModel)">
+            <summary>
+            Valida o usuario
+            </summary>
+            <param name="login"> Objeto login com email e a senha do usuário</param>
+            <returns> Um Status code 200 - ok com o token do suaurio autenticado</returns>
+        </member>
+        <member name="M:senai_gufi_WebApi.Interfaces.IUsuarioRepository.Login(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="email"></param>
+            <param name="senha"></param>
+            <returns></returns>
+        </member>
+        <member name="T:senai_gufi_WebApi.ViewModels.LoginViewModel">
+            <summary>
+            Classe responsavel pelo modelo de login
+            </summary>
+        </member>
+    </members>
+</doc>
