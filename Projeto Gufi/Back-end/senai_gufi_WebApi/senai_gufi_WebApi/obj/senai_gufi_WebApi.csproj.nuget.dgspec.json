@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\2°semestre- SENAI\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj": {}
+    "C:\\Users\\fic\\Desktop\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\2°semestre- SENAI\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj": {
+    "C:\\Users\\fic\\Desktop\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\2°semestre- SENAI\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\fic\\Desktop\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj",
         "projectName": "senai_gufi_WebApi",
-        "projectPath": "C:\\Users\\user\\Documents\\2°semestre- SENAI\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\2°semestre- SENAI\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\obj\\",
+        "projectPath": "C:\\Users\\fic\\Desktop\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj",
+        "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fic\\Desktop\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
