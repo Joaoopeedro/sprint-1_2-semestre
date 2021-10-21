@@ -7534,19 +7534,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fic\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fic\\Desktop\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\SENAI\\2°semestre- SENAI\\sprint-1\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj",
       "projectName": "senai_gufi_WebApi",
-      "projectPath": "C:\\Users\\fic\\Desktop\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj",
-      "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fic\\Desktop\\sprint-1_2-semestre\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\SENAI\\2°semestre- SENAI\\sprint-1\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\senai_gufi_WebApi.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\SENAI\\2°semestre- SENAI\\sprint-1\\Projeto Gufi\\Back-end\\senai_gufi_WebApi\\senai_gufi_WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7621,7 +7621,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,14 +5,17 @@ class TiposEventos extends Component {
     constructor(props) {
         super(props);
         this.state = {
-        listaTipoEventos: [ {idTipoEvento : 1, titulo : 'C#'}, {idTipoEvento : 2, titulo: 'SQL'}, {idTipoEvento: 3, titulo: 'reactJs'}],
+            listaTipoEventos: [{ idTipoEvento: 1, titulo: 'C#' }, { idTipoEvento: 2, titulo: 'SQL' }, { idTipoEvento: 3, titulo: 'reactJs' }],
             titulo: ''
         };
     };
+    buscarTipoEventos = () => {
+        console.log("ola")
+    };
 
     componentDidMount() {
-        //
-    }
+        this.buscarTipoEventos()
+    };
 
     render() {
         return (
@@ -27,7 +30,7 @@ class TiposEventos extends Component {
                                 <tr>
                                     <th>#</th>
                                     <th>Titulo</th>
-                                
+
                                 </tr>
                             </thead>
 
@@ -40,13 +43,27 @@ class TiposEventos extends Component {
                                                 <td>{tipoEventos.titulo}</td>
                                             </tr>
                                         )
-                                    } )
+                                    })
                                 }
 
                             </tbody>
                         </table>
                     </section>
                     {/* Cadastro de Tipos de Eventos */}
+                    <section>
+                        <h2>Cadastro de tipo de eventos</h2>
+                        <form onSubmit={this.cadastrarTipoEvento}>
+                            <div>
+                                <input type="text"
+                                    value={this.state.titulos}
+                                    placeholder="Titulo do Tipo de evento"
+
+                                    onChange={this.atualizarEstadodoTitulo}
+                                />
+                                <button type="submit">Cadastrar</button>
+                            </div>
+                        </form>
+                    </section>
                 </main>
 
             </div>
